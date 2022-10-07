@@ -33,6 +33,7 @@ namespace ShipStation4Net.Domain.Entities
         /// units of weight. Allowed units are: "pounds", "ounces", or "grams"
         /// </summary>
         [JsonProperty("units")]
-        public WeightUnits? Units { get; set; }
+        //public WeightUnits? Units { get; set; }
+        public string Units { get; set; }
     }
 }

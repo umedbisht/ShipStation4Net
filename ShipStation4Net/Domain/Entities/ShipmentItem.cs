@@ -44,7 +44,7 @@ namespace ShipStation4Net.Domain.Entities
         public int? Quantity { get; set; }
 
         [JsonProperty("unitPrice")]
-        public int? UnitPrice { get; set; }
+        public double? UnitPrice { get; set; }
 
         [JsonProperty("warehouseLocation")]
         public string WarehouseLocation { get; set; }

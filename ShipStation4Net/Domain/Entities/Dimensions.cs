@@ -45,6 +45,7 @@ namespace ShipStation4Net.Domain.Entities
         /// Units of measurement. Allowed units are: "inches", or "centimeters"
         /// </summary>
         [JsonProperty("units")]
-        public DimensionsUnits? Units { get; set; }
+        //public DimensionsUnits? Units { get; set; }
+        public string Units { get; set; }
     }
 }
